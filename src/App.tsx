@@ -9,7 +9,7 @@ import { Signup } from "./pages/signup/signup";
 import { Login } from "./pages/login/login";
 import { LinkAccount } from "./pages/link-account/link-account";
 import Dashboard from "./pages/dashboard/dashboard";
-import { ToastContainer, toast } from "react-toastify";
+import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 function App() {

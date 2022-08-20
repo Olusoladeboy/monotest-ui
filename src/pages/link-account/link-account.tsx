@@ -3,8 +3,6 @@ import dash from "../../assets/images/mono-dash.svg";
 import padlock from "../../assets/images/padlock.svg";
 import arrowRight from "../../assets/images/arrow-right.svg";
 import "./link-account.css";
-import { Link } from "react-router-dom";
-import Box from "@mui/material/Box";
 import React, { useEffect } from "react";
 import MonoConnect from "@mono.co/connect.js";
 import { getuser } from "../../lib/apiHandlers";

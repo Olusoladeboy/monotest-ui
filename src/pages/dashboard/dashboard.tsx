@@ -10,7 +10,7 @@ import netflix from "../../assets/images/netflix.png";
 import eden from "../../assets/images/eden.png";
 import linkedaccount from "../../assets/images/linked-account.png";
 import "./dashboard.css";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import React, { useEffect } from "react";
 import MonoConnect from "@mono.co/connect.js";
 import ProgressBar from "@ramonak/react-progress-bar";
@@ -89,18 +89,18 @@ export function Dashboard() {
     },
   ];
 
-  const monoConnect = React.useMemo(() => {
-    const monoInstance = new MonoConnect({
-      onClose: () => console.log("Widget closed"),
-      onLoad: () => console.log("Widget loaded successfully"),
-      onSuccess: ({ code }) => console.log(`Linked successfully: ${code}`),
-      key: "test_pk_GA9IVgMYFaG3snIitoZu",
-    });
+  // const monoConnect = React.useMemo(() => {
+  //   const monoInstance = new MonoConnect({
+  //     onClose: () => console.log("Widget closed"),
+  //     onLoad: () => console.log("Widget loaded successfully"),
+  //     onSuccess: ({ code }) => console.log(`Linked successfully: ${code}`),
+  //     key: "test_pk_GA9IVgMYFaG3snIitoZu",
+  //   });
 
-    monoInstance.setup();
+  //   monoInstance.setup();
 
-    return monoInstance;
-  }, []);
+  //   return monoInstance;
+  // }, []);
 
   const token = JSON.parse(localStorage.getItem("@user-token") || "null");
   const user = JSON.parse(localStorage.getItem("@user-user") || "null");

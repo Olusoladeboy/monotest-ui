@@ -3,7 +3,6 @@ import "./signup.css";
 import { Link, useNavigate } from "react-router-dom";
 import { useState } from "react";
 import register from "../../lib/apiHandlers/register";
-import { storage } from "../../utils";
 import loadError from "../../lib/loadErr";
 import { toast } from "react-toastify";
 

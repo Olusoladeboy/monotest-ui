@@ -1,0 +1,185 @@
+.dashboard-card {
+  background: #101010;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  width: 350px;
+  height: 350px;
+  color: #fff !important;
+}
+
+.dashboard-card .h2 {
+  font-family: "Duplicate Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.dashboard-card .p {
+  font-family: "Duplicate Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  mix-blend-mode: normal;
+}
+
+.dashboard-card button {
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  color: #182cd1;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.dashboard-sidebar-wrapper {
+}
+
+.navigations p {
+  font-family: "Duplicate Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  color: #ffffff7f;
+  mix-blend-mode: normal;
+  align-self: start;
+  margin-top: 30px;
+}
+.navigations p.active {
+  color: #ffffff !important;
+}
+
+.profileImage p {
+  font-family: "Duplicate Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 30px;
+  align-items: center;
+  letter-spacing: 0.3px;
+  color: #262a41;
+}
+
+.date img {
+  width: 20px;
+  height: 25px;
+}
+
+.date {
+  background: #ffffff;
+  border: 1px solid #d1d6de;
+  border-radius: 5px;
+}
+
+.expenses h3 {
+  font-family: "Duplicate Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 50px;
+  letter-spacing: 0.666667px;
+  color: #262a41;
+}
+
+.list-transactions .lt-header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.118);
+}
+
+.list-transactions h3 {
+  font-family: "Duplicate Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  /* or 140% */
+
+  letter-spacing: 0.322353px;
+
+  color: #262a41a4;
+}
+
+.view-all {
+  font-family: "Duplicate Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.5px;
+  line-height: 14px;
+  letter-spacing: 0.604412px;
+
+  color: #404852;
+}
+
+.timestamp {
+  font-family: "Duplicate Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 17px;
+  letter-spacing: 0.537255px;
+
+  color: #4048527c;
+
+  mix-blend-mode: normal;
+}
+
+.panel-2 {
+  background: rgba(242, 247, 255, 0.5);
+}
+
+.account-card {
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(50, 50, 71, 0.06);
+  border-radius: 10px;
+}
+
+.account-card .total-balance {
+  font-family: "Duplicate Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+  letter-spacing: 0.49625px;
+
+  color: #273240;
+}
+
+.account-card .total-amount {
+  font-family: "Duplicate Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50.6589px;
+  line-height: 55px;
+  letter-spacing: 0.49625px;
+
+  color: #273240;
+}
+
+.account-card .total-description {
+  font-family: "Duplicate Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17.3688px;
+  line-height: 30px;
+  letter-spacing: 0.620313px;
+  color: #404852ac;
+  mix-blend-mode: normal;
+}
+
+.account-card .account-btn {
+  background: #fff4f4;
+  border-radius: 11.5792px;
+  font-family: "Duplicate Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18.8162px;
+  line-height: 20px;
+  letter-spacing: 2.17109px;
+
+  color: #f22828;
+}

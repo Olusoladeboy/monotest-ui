@@ -1,0 +1,88 @@
+.wrapper {
+  height: 100%;
+  width: 100% !important;
+  background-color: black;
+}
+
+.card {
+  width: 609px;
+  height: 601px;
+  background: #ffffff;
+  border-radius: 18.152px;
+}
+
+.image-tagline {
+  font-family: "Duplicate Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #10101059;
+}
+
+form {
+}
+
+.form-wrapper input {
+  width: 100%;
+  padding: 10px;
+  background: #ffffff;
+  border: 1px solid #101010;
+  border-radius: 5px;
+}
+
+.form-wrapper input:focus {
+  border: 2px solid #101010;
+  border-radius: 5px;
+}
+
+input::placeholder {
+  font-family: "Duplicate Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #10101059;
+}
+
+.checkbox label,
+.checkbox p {
+  font-family: "Duplicate Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  /* line-height: 14px; */
+  color: #101010;
+  mix-blend-mode: normal;
+  opacity: 0.7;
+}
+
+.checkbox input {
+  background-color: #ffffff;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(50, 50, 71, 0.08),
+    0px 4px 8px rgba(50, 50, 71, 0.06);
+  border-radius: 6px;
+  border: 1px solid #fff;
+}
+
+input[type="checkbox"]:checked:before {
+  color: black !important;
+}
+
+button.signupBtn {
+  width: 100%;
+  text-transform: uppercase;
+  background: #6979f8;
+}
+
+.button p {
+  font-family: "Duplicate Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 14px;
+  color: #182cd1;
+  mix-blend-mode: normal;
+  opacity: 0.7;
+}
